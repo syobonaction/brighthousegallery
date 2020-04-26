@@ -1,0 +1,13 @@
+{
+    "includes": [
+        "./apps/splash/splash.json"
+    ],
+    "templates": {
+        "janusweb.ui": "./default.html"
+    },
+    "css": [
+        "./styles/default.css"
+    ],
+    "scripts": [
+    ]
+}

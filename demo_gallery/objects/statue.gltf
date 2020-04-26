@@ -1,0 +1,159 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "janus_apply_scale" : 0,
+                "janus_apply_pos" : 0,
+                "janus_apply_rot" : 0,
+                "janus_ipfs" : 0,
+                "janus_gateway" : 0,
+                "janus_ipns" : 0,
+                "janus_room_visible" : 0,
+                "janus_room_shader_active" : 0,
+                "janus_unpack" : 1
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "statue",
+            "rotation" : [
+                -0.4813545346260071,
+                -0.5179747343063354,
+                0.5179747939109802,
+                -0.4813544452190399
+            ],
+            "scale" : [
+                0.0003411723009776324,
+                0.0003411723009776324,
+                0.0003411723009776324
+            ],
+            "translation" : [
+                1.5498380661010742,
+                3.415175199508667,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "resting_nude_opti",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8365514278411865
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "lowPoly",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "diffuse",
+            "uri" : "diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1581,
+            "max" : [
+                1668.81494140625,
+                2456.276123046875,
+                1119.3997802734375
+            ],
+            "min" : [
+                -2244.796630859375,
+                -1553.6953125,
+                -2007.28173828125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1581,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1581,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6537,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 18972,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18972,
+            "byteOffset" : 18972
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12648,
+            "byteOffset" : 37944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13074,
+            "byteOffset" : 50592
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 63668,
+            "uri" : "statue.bin"
+        }
+    ]
+}

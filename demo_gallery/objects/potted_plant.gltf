@@ -1,0 +1,346 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "janus_apply_scale" : 0,
+                "janus_apply_pos" : 0,
+                "janus_apply_rot" : 0,
+                "janus_ipfs" : 0,
+                "janus_gateway" : 0,
+                "janus_ipns" : 0,
+                "janus_room_visible" : 0,
+                "janus_room_shader_active" : 0,
+                "janus_unpack" : 1
+            },
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube.022",
+            "scale" : [
+                1.2477667331695557,
+                1.2477667331695557,
+                1.2477667331695557
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cylinder.004",
+            "scale" : [
+                0.13528497517108917,
+                0.13528497517108917,
+                0.13528497517108917
+            ],
+            "translation" : [
+                0,
+                0.1349497139453888,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "Empty.004",
+            "scale" : [
+                0.306945264339447,
+                0.306945264339447,
+                0.306945264339447
+            ],
+            "translation" : [
+                -0.7068732380867004,
+                0,
+                -1.2195913791656494
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extras" : {},
+            "name" : "Bush Bark",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7727272510528564
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extras" : {},
+            "name" : "TexturesCom_Leaves0126_1_alphamasked_S",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6954545378684998
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extras" : {},
+            "name" : "Pot",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.04214933142066002,
+                    0.00899043120443821,
+                    0.0052884407341480255,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6863636374473572
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Cylinder",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9
+                    },
+                    "indices" : 10,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "TexturesCom_BarkDecidious0109_seamless_S",
+            "uri" : "TexturesCom_BarkDecidious0109_seamless_S.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "TexturesCom_Leaves0126_1_alphamasked_S",
+            "uri" : "TexturesCom_Leaves0126_1_alphamasked_S.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2250,
+            "max" : [
+                0.7569894194602966,
+                2.365192413330078,
+                0.4973096251487732
+            ],
+            "min" : [
+                -0.4921796917915344,
+                0.05711672082543373,
+                -0.5316603779792786
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2250,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2250,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5928,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4496,
+            "max" : [
+                0.8461381196975708,
+                2.381568193435669,
+                0.5686789155006409
+            ],
+            "min" : [
+                -0.5832884311676025,
+                0.2728307843208313,
+                -0.5765119194984436
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4496,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4496,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 6744,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 352,
+            "max" : [
+                1.508376955986023,
+                1.3370451927185059,
+                1.508377194404602
+            ],
+            "min" : [
+                -1.508377194404602,
+                -1,
+                -1.5083768367767334
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 352,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5123,
+            "count" : 1908,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 27000,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27000,
+            "byteOffset" : 27000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18000,
+            "byteOffset" : 54000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11856,
+            "byteOffset" : 72000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53952,
+            "byteOffset" : 83856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53952,
+            "byteOffset" : 137808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35968,
+            "byteOffset" : 191760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13488,
+            "byteOffset" : 227728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4224,
+            "byteOffset" : 241216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4224,
+            "byteOffset" : 245440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3816,
+            "byteOffset" : 249664
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 253480,
+            "uri" : "potted_plant.bin"
+        }
+    ]
+}
